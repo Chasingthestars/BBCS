@@ -33,7 +33,7 @@ $(function(){
 
 
             var css_ele=document.getElementById("thumb_up_css")
-            css_ele.style.setProperty("color",'red')
+            //css_ele.style.setProperty("color",'red')
 
         }else{
 
@@ -45,7 +45,7 @@ $(function(){
             window.my_map[id]-=1
             thumb_up_num(id,-1)
             var css_ele=document.getElementById("thumb_up_css")
-            css_ele.style.setProperty("color",'black')
+            //css_ele.style.setProperty("color",'black')
         }
 
     })
