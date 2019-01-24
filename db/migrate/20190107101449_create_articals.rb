@@ -3,7 +3,7 @@ class CreateArticals < ActiveRecord::Migration
     create_table :articals do |t|
       t.string :title
       t.string :category
-      t.string :content
+      t.text :content
       t.integer :user
       t.integer :read_number, default: 0
       t.integer :thumber_up_number
