@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 #ruby '2.0.0'
-ruby '2.3.7'
+ruby '2.3.3'
 #ruby '2.4.0'
 #ruby-gemset=railstutorial_rails_4_0
 
@@ -16,7 +16,6 @@ gem "simple_form"
 gem 'motion-markdown-it'
 
 gem 'simditor'
-gem 'rjb'
 
 gem 'rails_kindeditor'
 
